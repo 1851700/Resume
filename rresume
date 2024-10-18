@@ -1,53 +1,125 @@
-# Pranavi Immanni
-San Jose, California  
-(858)-683-4339  
-pranavi@immanni.com  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranavi Immanni Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-## Professional Summary
-Motivated and dedicated individual seeking internship opportunities to gain valuable experience in a professional setting. Eager to apply academic knowledge to real-world challenges and contribute to team success. Committed to continuous learning and professional development, with a passion for innovation and problem-solving.
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-## Skills  
-- Git
-- PyCharm
-- VS Code
-- Anaconda
-- IntelliJ
-- Data Visualization (Matplotlib, Seaborn)
-- Statistics
-- Responsible
-- Communication
-- Time Management
-- Discipline
-- Reliability
-- Fast Learner
-- Decision Making
+        h1, h2, h3 {
+            text-align: left;
+            color: #333;
+        }
 
-## Experience  
-**Virtual Stem-Away Internship**  
-*Data Science Intern*  
-June 2020 - July 2020  
-- Developed a vaping detection system, reducing response time by 30% through effective data analysis.
-- Collaborated with a team to design and implement a communication strategy, enhancing team collaboration.
-- Designed a prototype vaping sensor using Quartus and Virtual Board, increasing project efficiency by 15%.
-- Improved data collection processes, raising overall team efficiency by 20%.  
+        p, ul, li {
+            text-align: left;
+            margin-left: 0;
+            color: #555;
+        }
 
-Tools: Git, PyCharm, VS Code, Anaconda, IntelliJ  
-Data Science: Data Visualization (Matplotlib, Seaborn), Statistics  
-Attributes: Responsible, Communication, Time Management, Discipline, Reliability, Fast Learner, Decision Making
+        .contact-info {
+            margin-bottom: 20px;
+        }
 
-## Education  
-**San Jose State University**  
-Expected Graduation: May 2027  
-*Bachelor of Science: Data Science*
+        .section-title {
+            border-bottom: 2px solid #333;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
 
-## Projects  
-**Pokemon Dataset Analysis**  
-- Developed a detailed dataset comparing attributes of Legendary vs NonLegendary Pokemon.
-- Applied advanced data cleaning methods to ensure high-quality results.
-- Conducted statistical analysis and predictive modeling to identify meaningful trends.
-- Visualized insights using Matplotlib and Seaborn.
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-**Palindrome Detection System**  
-- Designed a highly efficient Python algorithm for detecting palindromes in various data types.
-- Integrated expert feedback from the open-source community to enhance the algorithm’s functionality.
-Technologies: Python, NumPy
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            width: 45%;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Pranavi Immanni</h1>
+    <div class="contact-info">
+        <p>San Jose, California | (858)-683-4339 | pranavi@immanni.com</p>
+    </div>
+
+    <h2 class="section-title">Professional Summary</h2>
+    <p>Motivated and dedicated individual seeking internship opportunities to gain valuable experience in a professional setting. Eager to apply academic knowledge to real-world challenges and contribute to team success. Committed to continuous learning and professional development, with a passion for innovation and problem-solving.</p>
+
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills">
+        <li>Git</li>
+        <li>PyCharm</li>
+        <li>VS Code</li>
+        <li>Anaconda</li>
+        <li>IntelliJ</li>
+        <li>Data Visualization (Matplotlib, Seaborn)</li>
+        <li>Statistics</li>
+        <li>Responsible</li>
+        <li>Communication</li>
+        <li>Time Management</li>
+        <li>Discipline</li>
+        <li>Reliability</li>
+        <li>Fast Learner</li>
+        <li>Decision Making</li>
+    </ul>
+
+    <h2 class="section-title">Experience</h2>
+    <h3>Virtual Stem-Away Internship | Data Science Intern</h3>
+    <p>June 2020 - July 2020</p>
+    <ul>
+        <li>Developed a vaping detection system, reducing response time by 30% through effective data analysis.</li>
+        <li>Collaborated with a team to design and implement a communication strategy, enhancing team collaboration.</li>
+        <li>Designed a prototype vaping sensor using Quartus and Virtual Board, increasing project efficiency by 15%.</li>
+        <li>Improved data collection processes, raising overall team efficiency by 20%.</li>
+    </ul>
+
+    <h2 class="section-title">Education</h2>
+    <h3>San Jose State University</h3>
+    <p>Expected Graduation: May 2027</p>
+    <p>Bachelor of Science: Data Science</p>
+
+    <h2 class="section-title">Projects</h2>
+    <h3>Pokemon Dataset Analysis</h3>
+    <ul>
+        <li>Developed a detailed dataset comparing attributes of Legendary vs NonLegendary Pokemon.</li>
+        <li>Applied advanced data cleaning methods to ensure high-quality results.</li>
+        <li>Conducted statistical analysis and predictive modeling to identify meaningful trends.</li>
+        <li>Visualized insights using Matplotlib and Seaborn.</li>
+    </ul>
+
+    <h3>Palindrome Detection System</h3>
+    <ul>
+        <li>Designed a highly efficient Python algorithm for detecting palindromes in various data types.</li>
+        <li>Integrated expert feedback from the open-source community to enhance the algorithm’s functionality.</li>
+    </ul>
+</div>
+
+</body>
+</html>
